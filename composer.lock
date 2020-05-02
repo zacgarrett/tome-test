@@ -783,6 +783,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -1883,7 +1884,7 @@
             "version": "1.0.0-beta2",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/tome",
+                "url": "https://git.drupalcode.org/project/tome.git",
                 "reference": "8.x-1.0-beta2"
             },
             "dist": {
@@ -1908,7 +1909,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1545586981",
+                    "datestamp": "1549898880",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -1928,7 +1929,7 @@
             "description": "Everything you need to do everything statically.",
             "homepage": "https://www.drupal.org/project/tome",
             "support": {
-                "source": "http://cgit.drupalcode.org/tome"
+                "source": "https://git.drupalcode.org/project/tome"
             }
         },
         {
@@ -1945,7 +1946,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1545586981",
+                    "datestamp": "1549898880",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -1965,7 +1966,7 @@
             "description": "Contains shared services and traits between Tome Sync and Tome Static.",
             "homepage": "https://www.drupal.org/project/tome",
             "support": {
-                "source": "http://cgit.drupalcode.org/tome"
+                "source": "https://git.drupalcode.org/project/tome"
             }
         },
         {
@@ -1983,7 +1984,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1545586981",
+                    "datestamp": "1549898880",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -2003,7 +2004,7 @@
             "description": "Exports an entire Drupal site to static HTML.",
             "homepage": "https://www.drupal.org/project/tome",
             "support": {
-                "source": "http://cgit.drupalcode.org/tome"
+                "source": "https://git.drupalcode.org/project/tome"
             }
         },
         {
@@ -2021,7 +2022,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1545586981",
+                    "datestamp": "1549898880",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -2041,7 +2042,7 @@
             "description": "Allows Drupal to installed from flat files and keeps content in sync.",
             "homepage": "https://www.drupal.org/project/tome",
             "support": {
-                "source": "http://cgit.drupalcode.org/tome"
+                "source": "https://git.drupalcode.org/project/tome"
             }
         },
         {
@@ -2611,6 +2612,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -2657,6 +2659,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -3506,16 +3509,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v3.4.20",
+            "version": "v3.4.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "5be2d762b51076295a972c86604a977fbcc5c12b"
+                "reference": "d10ff5503b0b27711087eef4ac7835a752fe42fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/5be2d762b51076295a972c86604a977fbcc5c12b",
-                "reference": "5be2d762b51076295a972c86604a977fbcc5c12b",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/d10ff5503b0b27711087eef4ac7835a752fe42fd",
+                "reference": "d10ff5503b0b27711087eef4ac7835a752fe42fd",
                 "shasum": ""
             },
             "require": {
@@ -3573,7 +3576,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2018-12-02T15:50:25+00:00"
+            "time": "2020-04-13T09:33:40+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -4924,6 +4927,7 @@
                 "psr",
                 "psr-7"
             ],
+            "abandoned": "laminas/laminas-diactoros",
             "time": "2018-09-05T19:29:37+00:00"
         },
         {
@@ -4969,6 +4973,7 @@
                 "escaper",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-escaper",
             "time": "2018-04-25T15:48:53+00:00"
         },
         {
@@ -5030,6 +5035,7 @@
                 "feed",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-feed",
             "time": "2018-08-01T13:53:20+00:00"
         },
         {
@@ -5076,6 +5082,7 @@
                 "stdlib",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-stdlib",
             "time": "2018-08-28T21:34:05+00:00"
         }
     ],
